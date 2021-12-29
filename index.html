@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <link rel="stylesheet" href="scss/style.css">
+
+   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.11.2/css/all.css">
+   <!--  обязательно добавлять свойства swiper без него не работает  -->
+   <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
+
+   <title>Calculator </title>
+</head>
+
+<body>
+
+   <div class="wrapper">
+      <main>
+         <div class="container">
+            <div class="main">
+
+               <div class="main__grid">
+
+                  <output type="text" class="main__output"></output>
+
+                  <button type="button" class=" but main__buttonc btnrest">C</button>
+                  <button type="button" class=" but main__buttonc btnrest">±</button>
+                  <button type="button" onclick="removee()" class="  main__buttonproc btnrest"><i
+                        class="fas fa-backspace"></i></button>
+                  <button type="button" class=" but main__buttonpodel btnnum">/</button>
+
+                  <button type="button" class=" but main__button7 btnchuf">7</button>
+                  <button type="button" class=" but main__button8 btnchuf">8</button>
+                  <button type="button" class=" but main__button9 btnchuf">9</button>
+                  <button type="button" class=" but main__buttonumnozenia btnnum">*</button>
+
+                  <button type="button" class=" but main__button4 btnchuf">4</button>
+                  <button type="button" class=" but main__button5 btnchuf">5</button>
+                  <button type="button" class=" but main__button6 btnchuf">6</button>
+                  <button type="button" class=" but main__buttonminus btnnum">-</button>
+
+                  <button type="button" class=" but main__button3 btnchuf">3</button>
+                  <button type="button" class=" but main__button2 btnchuf">2</button>
+                  <button type="button" class=" but main__button1 btnchuf">1</button>
+                  <button type="button" class=" but main__buttonplus btnnum">+</button>
+
+                  <button type="button" class=" but main__button0 number0">0</button>
+                  <button type="button" class=" but main__buttonkoma btnchuf">.</button>
+                  <button type="button" class="but  main__buttonravno btnnum">=</button>
+
+
+               </div>
+            </div>
+         </div>
+      </main>
+   </div>
+
+   <script src="js/scriptmy.js"></script>
+</body>
+
+</html>

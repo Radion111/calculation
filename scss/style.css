@@ -1,0 +1,281 @@
+@charset "UTF-8";
+/*Обнуление*/
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+}
+
+*,
+*:before,
+*:after {
+  -webkit-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:focus,
+:active {
+  outline: none;
+}
+
+a:focus,
+a:active {
+  outline: none;
+}
+
+nav,
+footer,
+header,
+aside {
+  display: block;
+}
+
+html,
+body {
+  height: 100%;
+  width: 100%;
+  font-size: 100%;
+  line-height: 1;
+  font-size: 14px;
+  -ms-text-size-adjust: 100%;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+}
+
+input,
+button,
+textarea {
+  font-family: inherit;
+}
+
+input::-ms-clear {
+  display: none;
+}
+
+button {
+  cursor: pointer;
+}
+
+button::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+a,
+a:visited {
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+ul li {
+  list-style: none;
+}
+
+img {
+  vertical-align: top;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-size: inherit;
+  font-weight: 400;
+}
+
+/*Обнуление окончания*/
+body {
+  height: 100%;
+  font-family: "Roboto-Bold";
+}
+
+.wrapper {
+  height: 100%;
+  width: 100%;
+  margin: 0 auto;
+  background-color: #14bdac;
+}
+
+.container {
+  max-width: 1920px;
+  padding: 0px 15px;
+  margin: 0 auto;
+  height: 100%;
+}
+
+main {
+  height: 100%;
+  width: 100%;
+}
+
+.main {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 100%;
+  height: 100%;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.main__grid {
+  background-color: #131111;
+  width: 600px;
+  height: 600px;
+  border-radius: 15px;
+  padding: 20px;
+  display: -ms-grid;
+  display: grid;
+  -ms-grid-columns: (1fr)[4];
+      grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  -ms-grid-rows: (1fr)[6];
+      grid-template-rows: repeat(6, 1fr);
+}
+
+.main__output {
+  grid-column: 1/-1;
+  display: block;
+  background-color: #131111;
+  color: white;
+  font-size: 36px;
+  padding: 20px;
+  padding-top: 35px;
+  text-align: end;
+  border-radius: 5px;
+}
+
+.main__buttonc {
+  border-radius: 80%;
+}
+
+.main__buttonproc {
+  border-radius: 80%;
+}
+
+.main__buttonpodel {
+  border-radius: 80%;
+}
+
+.main__button7 {
+  border-radius: 80%;
+}
+
+.main__button8 {
+  border-radius: 80%;
+}
+
+.main__button9 {
+  border-radius: 80%;
+}
+
+.main__buttonumnozenia {
+  border-radius: 80%;
+}
+
+.main__button4 {
+  border-radius: 80%;
+}
+
+.main__button5 {
+  border-radius: 80%;
+}
+
+.main__button6 {
+  border-radius: 80%;
+}
+
+.main__buttonminus {
+  border-radius: 80%;
+}
+
+.main__button3 {
+  border-radius: 80%;
+}
+
+.main__button2 {
+  border-radius: 80%;
+}
+
+.main__button1 {
+  border-radius: 80%;
+}
+
+.main__buttonplus {
+  border-radius: 80%;
+}
+
+.main__button0 {
+  -ms-grid-column: 1;
+  -ms-grid-column-span: 2;
+  grid-column: 1/3;
+  border-radius: 100px;
+  text-align: start;
+  padding-left: 40px;
+}
+
+.main__buttonkoma {
+  border-radius: 80%;
+}
+
+.main__buttonravno {
+  border-radius: 80%;
+}
+
+.btnnum {
+  color: white;
+  font-size: 36px;
+  text-align: center;
+  background-color: orange;
+  -webkit-box-shadow: 2px 3px 2px #0c0b0b;
+          box-shadow: 2px 3px 2px #0c0b0b;
+}
+
+.btnnum:hover {
+  background-color: #835706;
+}
+
+.btnchuf {
+  color: white;
+  background-color: #666565;
+  font-size: 36px;
+  -webkit-box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btnchuf:hover {
+  background-color: #292525;
+}
+
+.btnrest {
+  color: white;
+  background-color: #d1d1d1;
+  font-size: 36px;
+  -webkit-box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.btnrest:hover {
+  background-color: #aaa9a9;
+}
+
+.number0 {
+  color: white;
+  background-color: #666565;
+  font-size: 36px;
+  -webkit-box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+          box-shadow: 2px 3px 2px rgba(0, 0, 0, 0.5);
+}
+
+.number0:hover {
+  background-color: #292525;
+}
